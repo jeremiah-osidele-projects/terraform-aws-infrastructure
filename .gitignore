@@ -1,0 +1,9 @@
+# Ignore the local terraform directory
+**/.terraform/*
+
+# .tfstate files contain secrets and shouldn't be in git
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
